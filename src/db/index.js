@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-// import { DB_NAME } from "./constants.js";
-const DB_NAME = "youtube"
+import { DB_NAME } from "../constants.js";
+// const DB_NAME = "youtube"
 
 const connectDB = async () => {
     try {
